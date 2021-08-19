@@ -9,7 +9,7 @@ int main(){
         if(number > 1 && number < 4){
             printf("\n Entrada Invalida.");
         }
-    }(number > 1 && number < 4)
+    }while(number > 1 && number < 4);
     
     return 0;
 }
